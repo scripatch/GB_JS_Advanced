@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+<header class="header">
+    <div class="container header_wrapper">
+        <div class="header_left">
+            <a href="index.html" class="logo_link">
+                <img src="img/logo.png" alt="logo" class="logo_img">BRAN<span class="last_letter">D</span>
+            </a>
+            <form action="#" class="header_form">
+                <div class="browse_btn">Browse<img src="img/browse_arrow.png" alt="" class="browse_arrow">
+                    <div class="drop_down">
+                        <div class="drop_down_column">
+                            <p class="drop_down_title">Women</p>
+                            <ul class="drop_list">
+                                <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                            </ul>
+                            <p class="drop_down_title">Men</p>
+                            <ul class="drop_list">
+                                <li><a href="catalog.html" class="drop_down_link">Tees/Tank tops</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Shirts/Polos</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Sweaters</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Sweatshirts/Hoodies</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                                <li><a href="catalog.html" class="drop_down_link">Jackets/vests</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <input type="text" name="search_text" id="search_text" class="search_text"
+                       placeholder="Search for Item..."/>
+                <button class="search_btn"><img src="img/search_btn.png" alt="search_btn"></button>
+            </form>
+        </div>
+        <div class="header_right">
+            <div class="cart_block">
+                <a href="cart.html" class="cart_link"><img src="img/cart.svg" alt="" class="cart_img"></a>
+
+                <div class="cart_menu_holder">
+                    <div class="cart_menu">
+                        <ul class="cart_menu_list">
+                            <li class="cart_menu_item">
+                                <a href="product.html" class="cart_menu_link">
+                                    <div class="cart_product_img_holder">
+                                        <img src="img/cart_product1.jpg" alt="product" class="cart_product_img">
+                                    </div>
+                                    <div class="cart_product_details">
+                                        <h4 class="cart_product_name">Rebox Zane</h4>
+                                        <img src="img/cart-stars.png" alt="stars">
+                                        <h4 class="cart_product_price">1 x $250</h4>
+                                    </div>
+                                    <div class="cart_remove_holder">
+                                        <img src="img/del_cart.png" alt="remove">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="cart_menu_item">
+                                <a href="product.html" class="cart_menu_link">
+                                    <div class="cart_product_img_holder">
+                                        <img src="img/cart_product2.jpg" alt="product" class="cart_product_img">
+                                    </div>
+                                    <div class="cart_product_details">
+                                        <h4 class="cart_product_name">Rebox Zane</h4>
+                                        <img src="img/cart-stars.png" alt="stars">
+                                        <h4 class="cart_product_price">1 x $250</h4>
+                                    </div>
+                                    <div class="cart_remove_holder">
+                                        <img src="img/del_cart.png" alt="remove">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="cart_price">
+                            <h3 class="cart_price_text">TOTAL</h3>
+                            <h3 class="cart_price_text">$500.00</h3>
+                        </div>
+                        <form action="cart.html">
+                            <input type="button" class="cart_button" value="Checkout" onclick="location.href='checkout.html';">
+                            <input type="submit" class="cart_button cart_to_cart" value="Go to Cart" onclick="location.href='cart.html';">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="account_btn">My Account<img src="img/account_arrow.png" alt="" class="account_arrow">
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<nav class="header_nav">
+    <div class="container">
+        <ul class="nav_menu">
+            <li>
+                <a href="index.html">Home</a>
+                <div class="drop_down">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+            <li><a href="catalog.html" class="nav_menu_active">Man</a>
+                <div class="drop_down">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+            <li><a href="catalog.html">Women</a>
+                <div class="drop_down">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+            <li><a href="catalog.html">Kids</a>
+                <div class="drop_down">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+            <li><a href="catalog.html">Accoseriese</a>
+                <div class="drop_down drop_right">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+            <li><a href="catalog.html">Featured</a>
+                <div class="drop_down drop_right">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+            <li><a href="catalog.html">Hot Deals</a>
+                <div class="drop_down drop_right">
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Blazers</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Denim</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Leggings/Pants</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Skirts/Shorts</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Accessories </a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_column">
+                        <p class="drop_down_title">Women</p>
+                        <ul class="drop_list">
+                            <li><a href="catalog.html" class="drop_down_link">Dresses</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Tops</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Sweaters/Knits</a></li>
+                            <li><a href="catalog.html" class="drop_down_link">Jackets/Coats</a></li>
+                        </ul>
+                        <img src="img/supersale.jpg" alt="photo">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="breadcrumbs flex_jcsb_aic">
+    <div class="container flex_jcsb_aic">
+        <div class="breadcrumbs_heading">
+            <h2 class="breadcrumbs_heading_text">New Arrivals</h2>
+        </div>
+        <div class="breadcrumbs_path">
+            <h3 class="breadcrumbs_path_text"><a href="index.html" class="breadcrumbs_link">Home</a> / <a
+                    href="catalog.html" class="breadcrumbs_link">Men</a> / <span
+                    class="breadcrumbs_path_highlight">New Arrivals</span>
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="photo-slider">
+    <div class="photo-slider__button"><a href="#" class="photo-slider__link"><i class="fa fa-chevron-left"
+                                                                                aria-hidden="true"></i></a></div>
+    <div class="photo-slider__button"><a href="#" class="photo-slider__link"><i class="fa fa-chevron-right"
+                                                                                aria-hidden="true"></i></a></div>
+</div>
+
+<div class="product-details container">
+    <p class="product-details__collection">Women collection</p>
+    <p class="product-details__name">Moschino Cheap And Chic</p>
+    <p class="product-details__desc">Compellingly actualize fully researched processes before proactive outsourcing.
+        Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel
+        core competencies rather than exceptional portals. </p>
+    <div class="product-details__spec-block">
+        <span class="product-details__spec">material: <span class="product-details__spec-highlight">cotton</span></span>
+        <span class="product-details__spec">designer: <span class="product-details__spec-highlight">binburhan</span></span>
+    </div>
+    <p class="product-details__price">$561</p>
+    <div class="product-details__hline"></div>
+    <div class="product-details__selection-bar">
+        <div class="product-details__selection selection">
+            <div class="selection__name">Choose color</div>
+            <button class="selection__input button button_colorbox" type="button">
+                <span class="button__text">Red</span>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="product-details__selection selection">
+            <div class="selection__name">Choose size</div>
+            <button class="selection__input button" type="button">
+                <span class="button__text">XXL</span>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="product-details__selection selection">
+            <div class="selection__name">quantity</div>
+            <input type="text" class="selection__input button__text">
+        </div>
+    </div>
+    <a href="#" class="product-details__addToCart-button">
+        <img src="img/cart.svg" alt="cart" class="product-details__cartimg">Add to Cart
+    </a>
+</div>
+
+<section class="like-also container">
+    <h3 class="like-also__title">You may like also</h3>
+    <ul class="products">
+        <li class="product">
+            <a href="product.html" class="product_link">
+                <img src="img/product1.jpg" alt="" class="product_image">
+                <div class="product_desc">
+                    <p class="product_title">Mango People T-shirt</p>
+                    <p class="product_price">$52.00</p>
+                </div>
+                <div class="addToCart">
+                    <div class="addToCart_opacity">
+                    </div>
+                </div>
+            </a>
+            <div class="addToCart_link">
+                <img src="img/cart_white.svg" alt=""> Add to Cart
+            </div>
+
+        </li>
+        <li class="product">
+            <a href="product.html" class="product_link">
+                <img src="img/product3.jpg" alt="" class="product_image">
+                <div class="product_desc">
+                    <p class="product_title">Mango People T-shirt</p>
+                    <p class="product_price">$52.00</p>
+                </div>
+                <div class="addToCart">
+                    <div class="addToCart_opacity">
+                    </div>
+                </div>
+            </a>
+            <div class="addToCart_link">
+                <img src="img/cart_white.svg" alt=""> Add to Cart
+            </div>
+        </li>
+        <li class="product">
+            <a href="product.html" class="product_link">
+                <img src="img/product4.jpg" alt="" class="product_image">
+                <div class="product_desc">
+                    <p class="product_title">Mango People T-shirt</p>
+                    <p class="product_price">$52.00</p>
+                </div>
+                <div class="addToCart">
+                    <div class="addToCart_opacity">
+                    </div>
+                </div>
+            </a>
+            <div class="addToCart_link">
+                <img src="img/cart_white.svg" alt=""> Add to Cart
+            </div>
+        </li>
+        <li class="product">
+            <a href="product.html" class="product_link">
+                <img src="img/product5.jpg" alt="" class="product_image">
+                <div class="product_desc">
+                    <p class="product_title">Mango People T-shirt</p>
+                    <p class="product_price">$52.00</p>
+                </div>
+                <div class="addToCart">
+                    <div class="addToCart_opacity">
+                    </div>
+                </div>
+            </a>
+            <div class="addToCart_link">
+                <img src="img/cart_white.svg" alt=""> Add to Cart
+            </div>
+        </li>
+    </ul>
+</section>
+
+<div class="sub-feed">
+    <div class="container sub-feed_wrapper">
+        <div class="feedback">
+            <img src="img/portrait.png" alt="portrait">
+            <div class="feedback_textblock">
+                <p class="feedback_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                <p class="feedback_personName">Bin Burhan</p>
+                <p class="feedback_personSign">Dhaka, Bd</p>
+                <div class="feedback_sliders">
+                    <div class="feedback_slider"></div>
+                    <div class="feedback_slider feedback_slider_active"></div>
+                    <div class="feedback_slider"></div>
+                </div>
+            </div>
+        </div>
+        <section class="subscribe">
+            <h3 class="subscribe_title">Subscribe</h3>
+            <h4 class="subscribe_subtitle">FOR OUR NEWLETTER AND PROMOTION</h4>
+            <form action="#" class="subscribe_form">
+                <input type="text" class="subscribe_input" placeholder="Enter Your Email"><input type="button"
+                                                                                                 value="Subscribe"
+                                                                                                 class="subscribe_btn">
+            </form>
+        </section>
+    </div>
+</div>
+
+<footer class="page_footer">
+    <div class="about_nav container">
+        <div class="about">
+            <a href="index.html" class="logo_link">
+                <img src="img/logo.png" alt="logo" class="logo_img">BRAN<span class="last_letter">D</span>
+            </a>
+            <p class="about_text">Objectively transition extensive data rather than cross functional solutions.
+                Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly
+                syndicate an expanded array of processes and cross-unit partnerships.</p>
+            <p class="about_text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+                Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+        </div>
+        <nav class="nav_footer">
+            <ul class="nav_footer_list">
+                <li class="nav_footer_item_title">Company</li>
+                <li class="nav_footer_item"><a href="index.html">Home</a></li>
+                <li class="nav_footer_item"><a href="#">Shop</a></li>
+                <li class="nav_footer_item"><a href="#">About</a></li>
+                <li class="nav_footer_item"><a href="#">How it works</a></li>
+                <li class="nav_footer_item"><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav_footer_list">
+                <li class="nav_footer_item_title">Information</li>
+                <li class="nav_footer_item"><a href="#">Tearms &amp; Condition</a></li>
+                <li class="nav_footer_item"><a href="#">Privacy Policy</a></li>
+                <li class="nav_footer_item"><a href="#">How to Buy</a></li>
+                <li class="nav_footer_item"><a href="#">How to Sell</a></li>
+                <li class="nav_footer_item"><a href="#">Promotion</a></li>
+            </ul>
+            <ul class="nav_footer_list">
+                <li class="nav_footer_item_title">Shop Category</li>
+                <li class="nav_footer_item"><a href="catalog.html">Men</a></li>
+                <li class="nav_footer_item"><a href="catalog.html">Women</a></li>
+                <li class="nav_footer_item"><a href="catalog.html">Child</a></li>
+                <li class="nav_footer_item"><a href="catalog.html">Apparel</a></li>
+                <li class="nav_footer_item"><a href="catalog.html">Browse All</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="copyright">
+        <div class="container copy_wrapper">
+            <div class="copy_text">© 2017 Brand All Rights Reserved.</div>
+            <div class="social_links">
+                <a href="#" class="social_link"><i class="icofont-facebook"></i></a>
+                <a href="#" class="social_link"><i class="icofont-twitter"></i></a>
+                <a href="#" class="social_link"><i class="icofont-linkedin"></i></a>
+                <a href="#" class="social_link"><i class="icofont-pinterest"></i></a>
+                <a href="#" class="social_link"><i class="icofont-google-plus"></i></a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+</body>
+
+</html>
