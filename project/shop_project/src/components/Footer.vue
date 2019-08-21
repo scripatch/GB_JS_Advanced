@@ -3,7 +3,7 @@
         <div class="about_nav container">
             <div class="about">
                 <a href="index.html" class="logo_link">
-                    <img src="img/logo.png" alt="logo" class="logo_img">BRAN<span class="last_letter">D</span>
+                    <img src="~@/assets/logo.png" alt="logo" class="logo_img">BRAN<span class="last_letter">D</span>
                 </a>
                 <p class="about_text">Objectively transition extensive data rather than cross functional solutions.
                     Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly
@@ -14,7 +14,7 @@
             <nav class="nav_footer">
                 <ul class="nav_footer_list">
                     <li class="nav_footer_item_title">Company</li>
-                    <li class="nav_footer_item"><a href="index.html">Home</a></li>
+                    <li class="nav_footer_item"><a href="/">Home</a></li>
                     <li class="nav_footer_item"><a href="#">Shop</a></li>
                     <li class="nav_footer_item"><a href="#">About</a></li>
                     <li class="nav_footer_item"><a href="#">How it works</a></li>
@@ -30,11 +30,11 @@
                 </ul>
                 <ul class="nav_footer_list">
                     <li class="nav_footer_item_title">Shop Category</li>
-                    <li class="nav_footer_item"><a href="catalog.html">Men</a></li>
-                    <li class="nav_footer_item"><a href="catalog.html">Women</a></li>
-                    <li class="nav_footer_item"><a href="catalog.html">Child</a></li>
-                    <li class="nav_footer_item"><a href="catalog.html">Apparel</a></li>
-                    <li class="nav_footer_item"><a href="catalog.html">Browse All</a></li>
+                    <li class="nav_footer_item"><a href="/catalog/Men">Men</a></li>
+                    <li class="nav_footer_item"><a href="/catalog/Women">Women</a></li>
+                    <li class="nav_footer_item"><a href="/catalog/Child">Child</a></li>
+                    <li class="nav_footer_item"><a href="/catalog/Apparel">Apparel</a></li>
+                    <li class="nav_footer_item"><a href="/catalog/All">Browse All</a></li>
                 </ul>
             </nav>
         </div>
@@ -56,6 +56,6 @@
 
 <script>
 export default {
-    name: 'footer',
-}
+  name: 'FooterComp',
+};
 </script>

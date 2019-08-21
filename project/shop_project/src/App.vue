@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
+    <NavigationComp/>
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -34,12 +35,14 @@
 // @ is an alias to /src
 import HeaderComp from '@/components/Header.vue';
 import FooterComp from '@/components/Footer.vue';
+import NavigationComp from '@/components/Navigation.vue';
 
 export default {
   name: 'app',
   components: {
     HeaderComp,
     FooterComp,
+    NavigationComp,
   },
 };
 </script>

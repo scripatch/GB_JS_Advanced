@@ -2,7 +2,7 @@
     <header class="header">
         <div class="container header_wrapper">
             <div class="header_left">
-                <a href="index.html" class="logo_link">
+                <a href="/" class="logo_link">
                     <img src="~@/assets/logo.png" alt="logo" class="logo_img">BRAN<span class="last_letter">D</span>
                 </a>
                 <form action="#" class="header_form">
@@ -41,13 +41,13 @@
             </div>
             <div class="header_right">
                 <div class="cart_block">
-                    <a href="cart.html" class="cart_link"><img src="~@/assets/cart.svg" alt="" class="cart_img"></a>
+                    <a href="/cart" class="cart_link"><img src="~@/assets/cart.svg" alt="" class="cart_img"></a>
 
                     <div class="cart_menu_holder">
                         <div class="cart_menu">
                             <ul class="cart_menu_list">
                                 <li class="cart_menu_item">
-                                    <a href="product.html" class="cart_menu_link">
+                                    <a href="/catalog/Men/12345678" class="cart_menu_link">
                                         <div class="cart_product_img_holder">
                                             <img src="~@/assets/cart_product1.jpg" alt="product" class="cart_product_img">
                                         </div>
@@ -62,7 +62,7 @@
                                     </a>
                                 </li>
                                 <li class="cart_menu_item">
-                                    <a href="product.html" class="cart_menu_link">
+                                    <a href="/catalog/Men/12345678" class="cart_menu_link">
                                         <div class="cart_product_img_holder">
                                             <img src="~@/assets/cart_product2.jpg" alt="product" class="cart_product_img">
                                         </div>
@@ -81,9 +81,9 @@
                                 <h3 class="cart_price_text">TOTAL</h3>
                                 <h3 class="cart_price_text">$500.00</h3>
                             </div>
-                            <form action="cart.html">
-                                <input type="button" class="cart_button" value="Checkout" onclick="location.href='checkout.html';">
-                                <input type="submit" class="cart_button cart_to_cart" value="Go to Cart" onclick="location.href='cart.html';">
+                            <form action="/cart">
+                                <input type="button" class="cart_button" value="Checkout" onclick="location.href='/checkout';">
+                                <input type="submit" class="cart_button cart_to_cart" value="Go to Cart" onclick="location.href='/cart';">
                             </form>
                         </div>
                     </div>
@@ -99,6 +99,6 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'HeaderComp',
 };
 </script>

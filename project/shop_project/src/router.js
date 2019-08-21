@@ -1,6 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import CatalogComp from './views/Catalog.vue';
+import ProductComp from './views/Product.vue';
+import CartComp from './views/Cart.vue';
+import CheckoutComp from './views/Checkout.vue';
 
 Vue.use(Router);
 
@@ -12,6 +16,26 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home,
+    },
+    {
+      path: '/catalog/:category',
+      name: 'catalog',
+      component: CatalogComp,
+    },
+    {
+      path: '/catalog/:category/:id',
+      name: 'product',
+      component: ProductComp,
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: CartComp,
+    },
+    {
+      path: '/checkout',
+      name: 'checkout',
+      component: CheckoutComp,
     },
     {
       path: '/about',
