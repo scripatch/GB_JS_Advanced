@@ -12,28 +12,28 @@
         <div class="container offers_wrapper">
             <ul class="offers_list">
                 <li class="offers_item">
-                    <img src="~@/assets/offer1.jpg" alt="">
+                    <img src="/img/offer1.jpg" alt="">
                     <div class="offer_text">
                         <p>Hot Deal</p>
                         <p>For Men</p>
                     </div>
                 </li>
                 <li class="offers_item">
-                    <img src="~@/assets/offer2.jpg" alt="">
+                    <img src="/img/offer2.jpg" alt="">
                     <div class="offer_text">
                         <p>LUXIROUS & trendy</p>
                         <p>ACCESORIES</p>
                     </div>
                 </li>
                 <li class="offers_item">
-                    <img src="~@/assets/offer3.jpg" alt="">
+                    <img src="/img/offer3.jpg" alt="">
                     <div class="offer_text">
                         <p>30% offer</p>
                         <p>women</p>
                     </div>
                 </li>
                 <li class="offers_item">
-                    <img src="~@/assets/offer4.jpg" alt="">
+                    <img src="/img/offer4.jpg" alt="">
                     <div class="offer_text">
                         <p>new arrivals</p>
                         <p>FOR kids</p>
@@ -49,7 +49,7 @@
             <ul class="products">
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product1.jpg" alt="" class="product_image">
+                        <img src="/img/product1.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -60,13 +60,13 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
 
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product2.jpg" alt="" class="product_image">
+                        <img src="/img/product2.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -77,12 +77,12 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product3.jpg" alt="" class="product_image">
+                        <img src="/img/product3.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -93,12 +93,12 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product4.jpg" alt="" class="product_image">
+                        <img src="/img/product4.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -109,12 +109,12 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product5.jpg" alt="" class="product_image">
+                        <img src="/img/product5.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -125,12 +125,12 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product6.jpg" alt="" class="product_image">
+                        <img src="/img/product6.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -141,12 +141,12 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product7.jpg" alt="" class="product_image">
+                        <img src="/img/product7.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -157,12 +157,12 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
                 <li class="product">
                     <a href="/catalog/Men/12345678" class="product_link">
-                        <img src="~@/assets/product8.jpg" alt="" class="product_image">
+                        <img src="/img/product8.jpg" alt="" class="product_image">
                         <div class="product_desc">
                             <p class="product_title">Mango People T-shirt</p>
                             <p class="product_price">$52.00</p>
@@ -173,11 +173,11 @@
                         </div>
                     </a>
                     <div class="addToCart_link">
-                        <img src="~@/assets/cart_white.svg" alt=""> Add to Cart
+                        <img src="/img/cart_white.svg" alt=""> Add to Cart
                     </div>
                 </li>
             </ul>
-            <div class="browse_products">Browse All Product<img src="~@/assets/browse_product_arrow.png" alt="arrow"></div>
+            <div class="browse_products">Browse All Product<img src="/img/browse_product_arrow.png" alt="arrow"></div>
         </div>
     </section>
     <div class="features container">
@@ -186,20 +186,20 @@
             <p class="feat_banner_subtitle">for women</p>
         </div>
         <div class="features_list">
-            <img src="~@/assets/vehicle.svg" alt="banner">
+            <img src="/img/vehicle.svg" alt="banner">
             <article class="feature">
                 <h3 class="feature_title">Free Delivery</h3>
                 <h4 class="feature_desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
                     extensive models.</h4>
             </article>
-            <img src="~@/assets/discount.svg" alt="banner">
+            <img src="/img/discount.svg" alt="banner">
             <article class="feature">
                 <h3 class="feature_title">Sales & discounts</h3>
                 <h4 class="feature_desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
                     extensive models.</h4>
 
             </article>
-            <img src="~@/assets/crown.svg" alt="banner">
+            <img src="/img/crown.svg" alt="banner">
             <article class="feature">
                 <h3 class="feature_title">Quality assurance</h3>
                 <h4 class="feature_desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
@@ -211,7 +211,7 @@
     <div class="sub-feed">
         <div class="container sub-feed_wrapper">
             <div class="feedback">
-                <img src="~@/assets/portrait.png" alt="portrait">
+                <img src="/img/portrait.png" alt="portrait">
                 <div class="feedback_textblock">
                     <p class="feedback_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
                         a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>

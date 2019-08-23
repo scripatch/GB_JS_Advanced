@@ -30,7 +30,7 @@
             <div class="cart-main__product-col">
               <div class="cart-main__img-wrapper">
                 <a href="product.html" class="cart-main__link">
-                  <img src="~@/assets/product1-sm.jpg" alt />
+                  <img src="/img/product1-sm.jpg" alt />
                 </a>
               </div>
               <div class="cart-main__text-wrapper">
@@ -51,14 +51,14 @@
             <div class="cart-main__shipping-col flex-jcc-aic">FREE</div>
             <div class="cart-main__subtotal-col flex-jcc-aic">$300</div>
             <div class="cart-main__action-col flex-jcc-aic">
-              <img src="~@/assets/del_cart.png" alt="delete" />
+              <img src="/img/del_cart.png" alt="delete" />
             </div>
           </div>
           <div class="cart-main__item">
             <div class="cart-main__product-col">
               <div class="cart-main__img-wrapper">
                 <a href="product.html" class="cart-main__link">
-                  <img src="~@/assets/product2-sm.jpg" alt />
+                  <img src="/img/product2-sm.jpg" alt />
                 </a>
               </div>
               <div class="cart-main__text-wrapper">
@@ -79,14 +79,14 @@
             <div class="cart-main__shipping-col flex-jcc-aic">FREE</div>
             <div class="cart-main__subtotal-col flex-jcc-aic">$300</div>
             <div class="cart-main__action-col flex-jcc-aic">
-              <img src="~@/assets/del_cart.png" alt="delete" />
+              <img src="/img/del_cart.png" alt="delete" />
             </div>
           </div>
           <div class="cart-main__item">
             <div class="cart-main__product-col">
               <div class="cart-main__img-wrapper">
                 <a href="product.html" class="cart-main__link">
-                  <img src="~@/assets/product3-sm.jpg" alt />
+                  <img src="/img/product3-sm.jpg" alt />
                 </a>
               </div>
               <div class="cart-main__text-wrapper">
@@ -107,7 +107,7 @@
             <div class="cart-main__shipping-col flex-jcc-aic">FREE</div>
             <div class="cart-main__subtotal-col flex-jcc-aic">$300</div>
             <div class="cart-main__action-col flex-jcc-aic">
-              <img src="~@/assets/del_cart.png" alt="delete" />
+              <img src="/img/del_cart.png" alt="delete" />
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@
     <div class="sub-feed">
       <div class="container sub-feed_wrapper">
         <div class="feedback">
-          <img src="~@/assets/portrait.png" alt="portrait" />
+          <img src="/img/portrait.png" alt="portrait" />
           <div class="feedback_textblock">
             <p class="feedback_text">
               “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
