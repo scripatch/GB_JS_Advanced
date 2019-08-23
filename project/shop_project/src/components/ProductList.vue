@@ -240,7 +240,7 @@
         </div>
       </div>
       <ul class="products">
-        <product v-for="item of filtered" :key="item.id" :product="item"></product>
+        <productItem v-for="item of filtered" :key="item.id" :product="item"></productItem>
       </ul>
       <div class="pagination products__pagination">
         <div class="pagination__pages-block">
@@ -277,7 +277,6 @@ export default {
     return {
       products: [],
       filtered: [],
-      imgCatalog: 'https://placehold.it/200x150',
     };
   },
   methods: {
@@ -287,7 +286,7 @@ export default {
     },
   },
   mounted() {
-    this.$parent.getJson('/api/products').then(data => {
+    this.$root.getJson('/api/products').then(data => {
       for (let el of data) {
         this.products.push(el);
         this.filtered.push(el);

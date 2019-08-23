@@ -23,7 +23,7 @@ export default new Router({
       component: CatalogComp,
     },
     {
-      path: '/catalog/:category/:id',
+      path: '/products/:id',
       name: 'product',
       component: ProductComp,
     },

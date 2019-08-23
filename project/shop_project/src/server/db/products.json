@@ -6,22 +6,22 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1235",
-    "name": "MOSCHINO CHEAP AND CHIC",
+    "name": "МЕХОВАЯ ШУБА",
     "price": 400,
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1236",
@@ -30,10 +30,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1237",
@@ -42,10 +42,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1238",
@@ -54,10 +54,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1239",
@@ -66,10 +66,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1240",
@@ -78,10 +78,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1241",
@@ -90,10 +90,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1242",
@@ -102,10 +102,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1243",
@@ -114,10 +114,10 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   },
   {
     "id": "1244",
@@ -126,9 +126,9 @@
     "material": "cotton",
     "designer": "Brinigba",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
-    "smallImg": "./assets/cart_product2.jpg",
-    "mediumImg": "./assets/product1-sm.jpg",
-    "bigImg": "./assets/product4.jpg",
-    "SliderImgs": ["./assets/slider_photo.jpg", "./assets/slider_photo_flipped"]
+    "smallImg": "/img/cart_product2.jpg",
+    "mediumImg": "/img/product1-sm.jpg",
+    "bigImg": "/img/product4.jpg",
+    "SliderImgs": ["/img/slider_photo.jpg", "/img/slider_photo_flipped"]
   }
 ]

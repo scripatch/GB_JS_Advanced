@@ -1,12 +1,42 @@
 {
-    "amount": 46600,
+    "amount": 1400,
     "countGoods": 2,
     "contents": [
         {
+            "quantity": 1,
+            "id": "1234",
+            "name": "MOSCHINO CHEAP AND CHIC",
+            "price": 300,
+            "color": "Red",
+            "size": "XL",
+            "material": "cotton",
+            "designer": "Brinigba",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
+            "smallImg": "/img/cart_product2.jpg",
+            "mediumImg": "/img/product1-sm.jpg",
+            "bigImg": "/img/product4.jpg",
+            "SliderImgs": [
+                "/img/slider_photo.jpg",
+                "/img/slider_photo_flipped"
+            ]
+        },
+        {
             "quantity": 2,
-            "id_product": 124,
-            "product_name": "Keyboard",
-            "price": 1600
+            "id": "1235",
+            "name": "МЕХОВАЯ ШУБА",
+            "price": 400,
+            "color": "Red",
+            "size": "XL",
+            "material": "cotton",
+            "designer": "Brinigba",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iste corrupti! Voluptatem modi nemo sequi libero iure in! Enim, aliquid similique! Labore quam quasi vel natus ea ut veritatis debitis! Similique odio eum facere tempora iusto harum minima voluptatem exercitationem a iste necessitatibus quod perferendis tenetur quidem, corporis maiores dolor.",
+            "smallImg": "/img/cart_product2.jpg",
+            "mediumImg": "/img/product1-sm.jpg",
+            "bigImg": "/img/product4.jpg",
+            "SliderImgs": [
+                "/img/slider_photo.jpg",
+                "/img/slider_photo_flipped"
+            ]
         }
     ]
 }
