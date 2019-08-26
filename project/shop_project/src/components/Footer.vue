@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 <template>
         <footer class="page_footer">
         <div class="about_nav container">

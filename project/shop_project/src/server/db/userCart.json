@@ -3,7 +3,7 @@
     "countGoods": 2,
     "contents": [
         {
-            "quantity": 1,
+            "quantity": 10,
             "id": "1234",
             "name": "MOSCHINO CHEAP AND CHIC",
             "price": 300,
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "quantity": 2,
+            "quantity": 20,
             "id": "1235",
             "name": "МЕХОВАЯ ШУБА",
             "price": 400,

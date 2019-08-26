@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 <template>
   <div id="app">
     <HeaderComp />

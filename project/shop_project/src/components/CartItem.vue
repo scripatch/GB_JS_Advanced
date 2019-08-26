@@ -38,7 +38,7 @@
       <div class="cart_product_details">
         <h4 class="cart_product_name">Rebox Zane</h4>
         <img src="/img/cart-stars.png" alt="stars" />
-        <h4 class="cart_product_price">1 x $250</h4>
+        <h4 class="cart_product_price">{{cartItem.quantity}} x ${{cartItem.price}}</h4>
       </div>
       <div class="cart_remove_holder">
         <img src="/img/del_cart.png" alt="remove" />

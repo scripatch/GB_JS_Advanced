@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 <template>
   <div>
     <div class="breadcrumbs flex_jcsb_aic">

@@ -45,11 +45,11 @@
         <div class="cart-main__totals">
           <h5 class="cart-main__h5">
             Sub total
-            <span class="cart-main__total-span">$900</span>
+            <span class="cart-main__total-span">${{cartItems.reduce((acc,item) => acc + item.quantity * item.price, 0)}}</span>
           </h5>
           <h4 class="cart-main__h4">
             Grand Total
-            <span class="cart-main__total-span">$900</span>
+            <span class="cart-main__total-span">${{cartItems.reduce((acc,item) => acc + item.quantity * item.price, 0)}}</span>
           </h4>
         </div>
         <a href="checkout.html" class="cart-main__button cart-main__checkoutBtn">proceed to checkout</a>
@@ -65,12 +65,11 @@
     <div class="cart_menu_holder">
       <div class="cart_menu">
         <ul class="cart_menu_list">
-          <cartItem :type="type" @remove="remove"/>
-          <cartItem :type="type"/>
+          <cartItem v-for="cartItem of cartItems" :key="cartItem.id" :cartItem="cartItem" :type="type" @remove="remove"/>
         </ul>
         <div class="cart_price">
           <h3 class="cart_price_text">TOTAL</h3>
-          <h3 class="cart_price_text">$500.00</h3>
+          <h3 class="cart_price_text">${{this.cartItems.reduce((acc, item) => acc + item.quantity * item.price,0)}}</h3>
         </div>
         <form action="/cart">
           <input

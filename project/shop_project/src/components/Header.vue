@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 <template>
   <header class="header">
     <div class="container header_wrapper">
