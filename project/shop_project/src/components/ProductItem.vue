@@ -10,7 +10,7 @@
         <div class="addToCart_opacity"></div>
       </div>
     </a>
-    <div class="addToCart_link" @click="cartAPI.addProduct(productItem)">
+    <div class="addToCart_link" @click="cartAPI.addProduct(product)">
       <img src="/img/cart_white.svg" alt /> Add to Cart
     </div>
   </li>
@@ -27,7 +27,7 @@ export default {
        * то мы легко можем получить доступ к ним используя свойство $root.
        * $parent можно использовать для доступа к родительскому экземпляру из дочернего.
        */
-      cartAPI: this.$root.$refs.cart,
+      cartAPI: this.$root.$children[0].$refs.header.$refs.cart,
     };
   },
 };

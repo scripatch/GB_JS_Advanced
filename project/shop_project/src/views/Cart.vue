@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 <template>
   <div>
     <div class="breadcrumbs flex_jcsb_aic">
@@ -16,7 +15,7 @@
       </div>
     </div>
 
-    <cartList ref="cart" :type="'page'"/>
+    <cartList :type="'page'"/>
 
     <div class="sub-feed">
       <div class="container sub-feed_wrapper">

@@ -8,7 +8,7 @@
       :product="item"
     ></product>
   </div>-->
-  <div class="products_block container">
+  <div v-if="type==='page'" class="products_block container">
     <aside class="sidebar">
       <ul class="sidebar_filter_group_list">
         <li class="sidebar_filter_group_item">
@@ -263,6 +263,20 @@
       </div>
     </div>
   </div>
+
+  <section v-else class="featured">
+    <div class="container">
+      <h3 class="featured_title">Featured Items</h3>
+      <h4 class="featured_subtitle">Shop for items based on what we featured in this week</h4>
+      <ul class="products">
+        <productItem v-for="item in featured" :key="item.id" :product="item"></productItem>
+      </ul>
+      <div class="browse_products">
+        Browse All Product
+        <img src="/img/browse_product_arrow.png" alt="arrow" />
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -270,6 +284,7 @@ import productItem from '@/components/ProductItem.vue';
 
 export default {
   name: 'ProductList',
+  props: ['type'],
   components: {
     productItem,
   },
@@ -277,6 +292,7 @@ export default {
     return {
       products: [],
       filtered: [],
+      featured: [],
     };
   },
   methods: {
@@ -284,6 +300,9 @@ export default {
       let regexp = new RegExp(value, 'i');
       this.filtered = this.products.filter(el => regexp.test(el.product_name));
     },
+    feature() { this.featured = this.products.slice(0,8) },
+  },
+  computed: {
   },
   mounted() {
     this.$root.getJson('/api/products').then(data => {
@@ -291,6 +310,7 @@ export default {
         this.products.push(el);
         this.filtered.push(el);
       }
+      this.feature();
     });
   },
 };

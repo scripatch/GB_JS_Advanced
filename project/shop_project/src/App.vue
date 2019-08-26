@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 <template>
   <div id="app">
-    <HeaderComp />
+    <HeaderComp ref="header"/>
     <NavigationComp />
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |

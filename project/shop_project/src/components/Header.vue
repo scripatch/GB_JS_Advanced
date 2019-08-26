@@ -80,7 +80,7 @@
         </form>
       </div>
       <div class="header_right">
-        <cartList :type="'menu'" />
+        <cartList ref="cart" :type="'menu'" />
         <div class="account_btn">
           My Account
           <img src="/img/account_arrow.png" alt class="account_arrow" />

@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <productList/>
+    <productList type="page"/>
 
     <div class="features-bar">
         <div class="container">
